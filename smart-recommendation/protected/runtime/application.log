@@ -1,0 +1,607 @@
+2014/10/08 23:23:25 [error] [php] Object of class Apache_Solr_Response could not be converted to string (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:10)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/08 23:38:52 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.ElasticaLoader" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/html/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/html/yii/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /var/www/html/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/html/yii/framework/base/CModule.php(523): CModule->getComponent('importelastica')
+#3 /var/www/html/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /var/www/html/yii/framework/YiiBase.php(125): CApplication->__construct('/var/www/html/s...')
+#5 /var/www/html/yii/framework/YiiBase.php(113): YiiBase::createApplication('CConsoleApplica...', '/var/www/html/s...')
+#6 /var/www/html/yii/framework/yiic.php(23): YiiBase::createConsoleApplication('/var/www/html/s...')
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#9 {main}
+---
+2014/10/08 23:39:27 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.ElasticaLoader" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/html/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/html/yii/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /var/www/html/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/html/yii/framework/base/CModule.php(523): CModule->getComponent('importelastica')
+#3 /var/www/html/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /var/www/html/yii/framework/YiiBase.php(125): CApplication->__construct('/var/www/html/s...')
+#5 /var/www/html/yii/framework/YiiBase.php(113): YiiBase::createApplication('CConsoleApplica...', '/var/www/html/s...')
+#6 /var/www/html/yii/framework/yiic.php(23): YiiBase::createConsoleApplication('/var/www/html/s...')
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#9 {main}
+---
+2014/10/08 23:39:57 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.ElasticaLoader" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/html/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/html/yii/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /var/www/html/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/html/yii/framework/base/CModule.php(523): CModule->getComponent('importelastica')
+#3 /var/www/html/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /var/www/html/yii/framework/YiiBase.php(125): CApplication->__construct('/var/www/html/s...')
+#5 /var/www/html/yii/framework/YiiBase.php(113): YiiBase::createApplication('CConsoleApplica...', '/var/www/html/s...')
+#6 /var/www/html/yii/framework/yiic.php(23): YiiBase::createConsoleApplication('/var/www/html/s...')
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#9 {main}
+---
+2014/10/08 23:49:20 [error] [php] require(vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/08 23:49:46 [error] [php] require(/../../vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/08 23:49:53 [error] [php] require(/../../vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/08 23:50:25 [error] [php] require(/../vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/08 23:52:34 [error] [php] require(../../vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:12:40 [error] [php] include(Client.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(12): spl_autoload_call()
+#1 unknown(0): ImpressorCommand->actionEs2solr()
+#2 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#4 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:13:04 [error] [php] include(Client.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(12): spl_autoload_call()
+#1 unknown(0): ImpressorCommand->actionEs2solr()
+#2 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#4 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:15:51 [error] [php] include(Elastica_Client.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(12): spl_autoload_call()
+#1 unknown(0): ImpressorCommand->actionEs2solr()
+#2 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#4 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:15:55 [error] [php] include(Elastica_Client.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(12): spl_autoload_call()
+#1 unknown(0): ImpressorCommand->actionEs2solr()
+#2 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#4 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:17:27 [error] [php] include(Elastica_Client.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(12): spl_autoload_call()
+#1 unknown(0): ImpressorCommand->actionEs2solr()
+#2 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#4 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#6 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#8 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:18:37 [error] [php] Missing argument 2 for CConsoleCommand::__construct(), called in /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php on line 10 and defined (/var/www/html/yii/framework/console/CConsoleCommand.php:65)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:18:40 [error] [php] Missing argument 2 for CConsoleCommand::__construct(), called in /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php on line 10 and defined (/var/www/html/yii/framework/console/CConsoleCommand.php:65)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:19:21 [error] [php] Missing argument 1 for CConsoleCommand::__construct(), called in /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php on line 10 and defined (/var/www/html/yii/framework/console/CConsoleCommand.php:65)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:19:31 [error] [php] Undefined variable: onlyCity (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:30)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:19:43 [error] [php] Undefined variable: onlyCity (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:30)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:21:05 [error] [php] Undefined variable: post (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:29)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:22:20 [error] [exception.Elastica_Exception_Client] exception 'Elastica_Exception_Client' with message 'Couldn't connect to host, ElasticSearch down?' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:119
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('jdbctags/_searc...', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:24:14 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'IndexMissingException[[jdbctags] missing]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('jdbctags/_searc...', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:25:07 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('logstash-2014.0...', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:25:17 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('logstash-2014.0...', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:26:44 [error] [php] Missing argument 2 for Elastica_Index::__construct(), called in /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php on line 44 and defined (/var/www/html/smart-recommendation/protected/lib/Elastica/Index.php:36)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:26:48 [error] [php] Missing argument 2 for Elastica_Index::__construct(), called in /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php on line 44 and defined (/var/www/html/smart-recommendation/protected/lib/Elastica/Index.php:36)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#2 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#4 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#6 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 18:27:33 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:30:20 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:31:23 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 18:37:26 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 19:38:11 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[V-5Xe8uJQVyb2s1SJKSFpQ][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:34:02 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:35:51 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:36:31 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:37:01 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:37:11 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:115
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:37:36 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:116
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:39:42 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][4]: SearchParseException[[logstash-2014.09.22][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][0]: SearchParseException[[logstash-2014.09.22][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][1]: SearchParseException[[logstash-2014.09.22][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][2]: SearchParseException[[logstash-2014.09.22][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.22][3]: SearchParseException[[logstash-2014.09.22][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:114
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('/_search', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:40:14 [error] [exception.Elastica_Exception_Response] exception 'Elastica_Exception_Response' with message 'SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][1]: SearchParseException[[logstash-2014.09.27][1]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][2]: SearchParseException[[logstash-2014.09.27][2]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][3]: SearchParseException[[logstash-2014.09.27][3]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][4]: SearchParseException[[logstash-2014.09.27][4]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }{[x63VppxSRYOUThwPWPM82g][logstash-2014.09.27][0]: SearchParseException[[logstash-2014.09.27][0]: query[MatchNoDocsQuery],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"bool":[]},"from":0,"size":2}]]]; nested: ElasticsearchParseException[Expected field name but got VALUE_NUMBER "from"]; }]' in /var/www/html/smart-recommendation/protected/lib/Elastica/Transport/Http.php:114
+Stack trace:
+#0 /var/www/html/smart-recommendation/protected/lib/Elastica/Request.php(223): Elastica_Transport_Http->exec(Array)
+#1 /var/www/html/smart-recommendation/protected/lib/Elastica/Client.php(341): Elastica_Request->send()
+#2 /var/www/html/smart-recommendation/protected/lib/Elastica/Search.php(219): Elastica_Client->request('logstash-2014.0...', 'GET', Array, Array)
+#3 /var/www/html/smart-recommendation/protected/lib/Elastica/Index.php(231): Elastica_Search->search(Object(Elastica_Query), NULL)
+#4 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(45): Elastica_Index->search(Object(Elastica_Query))
+#5 [internal function]: ImpressorCommand->actionEs2solr()
+#6 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#7 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#12 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#13 {main}
+---
+2014/10/10 21:48:15 [error] [php] require(vendor/autoload.php): failed to open stream: No such file or directory (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:8)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 21:49:42 [error] [exception.Elasticsearch\Common\Exceptions\RuntimeException] exception 'Elasticsearch\Common\Exceptions\RuntimeException' with message 'id is required for Get' in /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Get.php:59
+Stack trace:
+#0 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php(83): Elasticsearch\Endpoints\Get->getURI()
+#1 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Client.php(177): Elasticsearch\Endpoints\AbstractEndpoint->performRequest()
+#2 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(18): Elasticsearch\Client->get(Array)
+#3 [internal function]: ImpressorCommand->actionEs2solr()
+#4 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#5 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#9 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#10 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#11 {main}
+---
+2014/10/10 21:49:46 [error] [exception.Elasticsearch\Common\Exceptions\RuntimeException] exception 'Elasticsearch\Common\Exceptions\RuntimeException' with message 'id is required for Get' in /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Get.php:59
+Stack trace:
+#0 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php(83): Elasticsearch\Endpoints\Get->getURI()
+#1 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Client.php(177): Elasticsearch\Endpoints\AbstractEndpoint->performRequest()
+#2 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(18): Elasticsearch\Client->get(Array)
+#3 [internal function]: ImpressorCommand->actionEs2solr()
+#4 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#5 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#9 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#10 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#11 {main}
+---
+2014/10/10 21:50:29 [error] [php] Undefined variable: client (/var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php:17)
+Stack trace:
+#0 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): ImpressorCommand->run()
+#1 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#3 /var/www/html/yii/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once()
+#5 /var/www/html/smart-recommendation/protected/yiic(4): require_once()
+
+2014/10/10 21:50:49 [error] [exception.Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost] exception 'Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost' with message 'Failed to connect to localhost port 9200: Connection refused' in /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/AbstractConnection.php:308
+Stack trace:
+#0 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(307): Elasticsearch\Connections\AbstractConnection->throwCurlException(7, 'Failed to conne...')
+#1 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(197): Elasticsearch\Connections\GuzzleConnection->processCurlError(Object(Guzzle\Http\Exception\CurlException))
+#2 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(104): Elasticsearch\Connections\GuzzleConnection->sendRequest(Object(Guzzle\Http\Message\EntityEnclosingRequest), '{"query":{"matc...')
+#3 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(166): Elasticsearch\Connections\GuzzleConnection->performRequest('GET', '///_search', Array, '{"query":{"matc...')
+#4 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php(86): Elasticsearch\Transport->performRequest('GET', '///_search', Array, Array)
+#5 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Client.php(1010): Elasticsearch\Endpoints\AbstractEndpoint->performRequest()
+#6 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(18): Elasticsearch\Client->search(Array)
+#7 [internal function]: ImpressorCommand->actionEs2solr()
+#8 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#9 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#14 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#15 {main}
+---
+2014/10/10 22:01:10 [error] [exception.Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost] exception 'Elasticsearch\Common\Exceptions\Curl\CouldNotConnectToHost' with message 'Failed to connect to localhost port 9200: Connection refused' in /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/AbstractConnection.php:308
+Stack trace:
+#0 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(307): Elasticsearch\Connections\AbstractConnection->throwCurlException(7, 'Failed to conne...')
+#1 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(197): Elasticsearch\Connections\GuzzleConnection->processCurlError(Object(Guzzle\Http\Exception\CurlException))
+#2 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Connections/GuzzleConnection.php(104): Elasticsearch\Connections\GuzzleConnection->sendRequest(Object(Guzzle\Http\Message\EntityEnclosingRequest), '{"query":{"matc...')
+#3 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php(166): Elasticsearch\Connections\GuzzleConnection->performRequest('GET', '///_search', Array, '{"query":{"matc...')
+#4 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/AbstractEndpoint.php(86): Elasticsearch\Transport->performRequest('GET', '///_search', Array, Array)
+#5 /var/www/html/smart-recommendation/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Client.php(1010): Elasticsearch\Endpoints\AbstractEndpoint->performRequest()
+#6 /var/www/html/smart-recommendation/protected/commands/ImpressorCommand.php(18): Elasticsearch\Client->search(Array)
+#7 [internal function]: ImpressorCommand->actionEs2solr()
+#8 /var/www/html/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(ImpressorCommand), Array)
+#9 /var/www/html/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#10 /var/www/html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#11 /var/www/html/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#12 /var/www/html/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/smart-recommendation/protected/yiic.php(7): require_once('/var/www/html/y...')
+#14 /var/www/html/smart-recommendation/protected/yiic(4): require_once('/var/www/html/s...')
+#15 {main}
+---
