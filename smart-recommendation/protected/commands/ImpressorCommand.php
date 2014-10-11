@@ -5,7 +5,7 @@
  * @copyright Copyright (c) 2014
  * @version 2.3
  */
-require '/var/www/html/smart-recommendation/vendor/autoload.php';
+require '/var/www/html/Smart-Recommendation-/smart-recommendation/vendor/autoload.php';
 class ImpressorCommand extends CConsoleCommand {
 
 	public function actionEs2solr(){
