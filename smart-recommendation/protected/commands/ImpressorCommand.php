@@ -17,9 +17,9 @@ class ImpressorCommand extends CConsoleCommand {
 		while (true) {
 			// Getting all results
 			$results = Yii::app()->collection1->get("*:*", $offset*50, 50, array('fl'=>'id'));
-			if(!$results->response->numFound)break;
+			if (empty($results->response->docs)) break;
 			foreach ($results->response->docs as $doc) {
-				$params['body']['query']['match']['message'] = $doc->id;
+				$searchParams['body']['query']['filtered'] = array('filter'=>array('term'=>array('message'=>$doc->id)));
                 $queryResponse = $client->search($searchParams);
                 if($queryResponse['hits']['total']){
                 	$document = array();
@@ -29,7 +29,7 @@ class ImpressorCommand extends CConsoleCommand {
                 }
                 
 			}
-			$offset=$offset++;
+			$offset++;
 			Yii::app()->collection1->solrCommitWithOptimize();
 				
 		}
